@@ -1,8 +1,8 @@
 import re
 
-from flask_sqlalchemy import _include_sqlalchemy, Lock, Model, SQLAlchemy
-from sqlalchemy.ext.horizontal_shard import ShardedQuery, ShardedSession
+from flask_sqlalchemy import Lock, Model, SQLAlchemy, _include_sqlalchemy
 from sqlalchemy import orm
+from sqlalchemy.ext.horizontal_shard import ShardedQuery, ShardedSession
 
 
 class BindKeyPattern:
